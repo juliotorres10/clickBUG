@@ -36,7 +36,7 @@ const moveElemento = (el, veloc, inc) => {
         //verifica se elemento saiu do quadro
         //classe emtela 
         //remove a classe e volta para uma posição inicial
-        if(veloc > larguraQuadro && el.classList.contain('emtela')){
+        if(veloc > larguraQuadro){
             el.classList.remove('emtela')
             posicElement(el)
         }
